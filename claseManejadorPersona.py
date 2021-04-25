@@ -29,5 +29,5 @@ class ManejadorPersona:
 
     def mostrarListaPersona (self):
         for pers in self.__listaP:
-            pers.mostrarPersona()
             print("".center(50, '='))
+            pers.mostrarPersona()

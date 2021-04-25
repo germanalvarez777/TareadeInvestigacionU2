@@ -27,3 +27,5 @@ class Persona:
     def __gt__ (self, otraPersona):
         if ((type(self)) == (type(otraPersona))):
             return (self.__edad > otraPersona.getEdad())
+        elif (type(otraPersona) == int ):
+            return (self.__edad > otraPersona)
